@@ -505,3 +505,5 @@ password: password123
 You cannot use the admin user to log in to the dashboard, or use the normal user to log in to the dashboard.
 ### Dashboard Access:
 The Dashboard is restricted to the developer alone and is not accessible to normal users or admin users.
+
+#### It's live at https://assets-management-srzu.onrender.com/

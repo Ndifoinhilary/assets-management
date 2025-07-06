@@ -1,0 +1,27 @@
+Here are real-life examples of how each order type works:
+
+## MARKET Order
+**Scenario**: You want to buy Apple stock immediately at whatever the current price is.
+- Current Apple price: $150.25
+- You place a MARKET order to buy 100 shares
+- **Result**: Order executes instantly at ~$150.25, total cost ~$15,025
+
+## LIMIT Order
+**Scenario**: You think Tesla is overpriced at $200 but would buy if it drops to $180.
+- Current Tesla price: $200
+- You place a LIMIT order to buy 50 shares at $180
+- **Result**: Order sits waiting. Only executes if Tesla drops to $180 or below
+
+## STOP Order (Stop-Loss)
+**Scenario**: You own Microsoft at $300/share but want to limit losses if it falls.
+- Current Microsoft price: $300
+- You place a STOP order to sell 100 shares at $280 (stop price)
+- **Result**: If Microsoft drops to $280, it triggers a MARKET sell order to minimize your losses
+
+## STOP_LIMIT Order
+**Scenario**: You own Amazon at $120 but want controlled selling if it drops.
+- Current Amazon price: $120
+- You place a STOP_LIMIT order: stop price $110, limit price $108
+- **Result**: If Amazon hits $110, it triggers a LIMIT sell order at $108. Won't sell below $108, protecting you from flash crashes
+
+These order types give traders control over timing, price, and risk management in their trading strategies.
